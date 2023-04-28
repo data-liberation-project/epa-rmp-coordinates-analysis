@@ -1,23 +1,23 @@
-column,description
-SubmissionID,Unique ID for the submission.
-ReceiptDate,The date EPA received the submission.
-ValidationDate,The date the EPA finished validating the submission.
-DeregDate,"The date, per this submission, that the facility deregistered from the risk management program, either because it ceased operations entirely or no longer uses any regulated substance above the reporting threshold."
-DeregEffDate,"The date that the deregistration was ""effective""; i.e., that its operations no longer required RMP participation."
-SubType,"The submission type (F: First-time Submission, R: Resubmission, C: Correction)."
-SubReason,"The reason given for submitting, chosen from a list of options."
-EPAFacilityID,"The core facility identifier, linkable to other EPA datasets."
-FacName,Facility name listed in *this* submission.
-FacLat,The latitude listed in *this* submission.
-FacLng,The longitude listed in *this* submission.
-FRSLat,"From the submission-level `FRS_Lat` column, whose definition does not appear to be documented by the EPA. ""FRS"", however, likely refers to the EPA's Facility Registry Service, which is publicly accessible."
-FRSLng,"Similar to above, but from the `FRS_Long` column."
-FacFTE,"The number of full-time equivalent staff at the facility, as listed in *this* submission."
-FacCompany1,"Primary facility owner, as listed in *this* submission."
-FacCompany2,"Secondary facility owner, as listed in *this* submission."
-FacOperator,"Facility operator, as listed in *this* submission."
-NAICSCodes,"The distinct NAICS codes, across all processes, listed in this submission. See NAICS Codes spreadsheet to look these up."
-Chemicals,"Chemicals disclosed in the submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
-AccidentChemicals,"Chemicals released in the accidents in this submission’s five-year accident history, with quantities released as {number}."
-NumAccidents,Number of accidents in the submission’s five-year accident history.
-LatestAccidentDate,The most recent accident disclosed in the five-year accident history.
+"column","description"
+"SubmissionID","Unique ID for the submission."
+"ReceiptDate","The date EPA received the submission."
+"ValidationDate","The date the EPA finished validating the submission."
+"DeregDate","The date, per this submission, that the facility deregistered from the risk management program, either because it ceased operations entirely or no longer uses any regulated substance above the reporting threshold."
+"DeregEffDate","The date that the deregistration was ""effective""; i.e., that its operations no longer required RMP participation."
+"SubType","The submission type (F: First-time Submission, R: Resubmission, C: Correction)."
+"SubReason","The reason given for submitting, chosen from a list of options."
+"EPAFacilityID","The core facility identifier, linkable to other EPA datasets."
+"FacName","Facility name listed in *this* submission."
+"FacLat","The latitude listed in *this* submission."
+"FacLng","The longitude listed in *this* submission."
+"FRSLat","According to the EPA, this latitude value (`FRS_Lat` in the raw data) comes from an internal table, based on the EPA's Facility Registry Service (the ""FRS"" in the column name), that ""has not been updated for some years"". Still, it may serve as a useful reference."
+"FRSLng","Similar to above, but for longitude."
+"FacFTE","The number of full-time equivalent staff at the facility, as listed in *this* submission."
+"FacCompany1","Primary facility owner, as listed in *this* submission."
+"FacCompany2","Secondary facility owner, as listed in *this* submission."
+"FacOperator","Facility operator, as listed in *this* submission."
+"NAICSCodes","The distinct NAICS codes, across all processes, listed in this submission. See NAICS Codes spreadsheet to look these up."
+"Chemicals","Chemicals disclosed in the submission. Quantity, supposed to be reported in pounds, indicated as {number}. Sometimes can include duplicate entries when two separate processes use the same kind of chemicals."
+"AccidentChemicals","Chemicals released in the accidents in this submission’s five-year accident history, with quantities released as {number}."
+"NumAccidents","Number of accidents in the submission’s five-year accident history."
+"LatestAccidentDate","The most recent accident disclosed in the five-year accident history."
